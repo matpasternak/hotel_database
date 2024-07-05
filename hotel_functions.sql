@@ -186,9 +186,9 @@ BEGIN
 END;
 $$ LANGUAGE 'plpgsql';
 
-DROP TRIGGER name_upper_trigger ON klienci CASCADE;
+DROP TRIGGER name_upper_trigger ON customers CASCADE;
 CREATE TRIGGER name_upper_trigger BEFORE INSERT OR UPDATE ON 
-klienci FOR EACH ROW EXECUTE PROCEDURE name_upper();
+customers FOR EACH ROW EXECUTE PROCEDURE name_upper();
 
 
 --(8)name_upper_workers()- This is a trigger pinned to the workers table, it runs when a new tuple is added to the workers table
