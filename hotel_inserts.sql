@@ -1,4 +1,4 @@
---DODAWANIE PRZYKLADOWYCH DANYCH--
+--ADDING EXAMPLE DATA--
 
 
 INSERT INTO customers(pesel,name,surname,city,street,home_number,apartment_number,zip_code,email) VALUES
@@ -133,7 +133,7 @@ INSERT INTO payment(id_reservation,to_pay,method_of_payment) VALUES
 (13,1100,'cash'),
 (14,720,'card'),
 (15,300,'cash'),
-(15,300,'czek'),
+(15,300,'check'),
 (16,800,'card'),
 (16,50,'blik'),
 (17,700,'voucher'),
