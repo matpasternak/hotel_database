@@ -1,7 +1,7 @@
 --FUNCTIONS--
 --(1)available_rooms() - function, which check if there are available rooms for a given number of people, beds and date and show a price for a night. 
 
-DROP FUNCTION available_rooms(TEXT, INT, DATE, DATE);
+DROP FUNCTION available_rooms(INT, INT, DATE, DATE);
 CREATE OR REPLACE FUNCTION available_rooms(av_people INTEGER,av_beds INTEGER, av_start_date DATE, av_end_date DATE) RETURNS TEXT AS $$
 DECLARE
 
