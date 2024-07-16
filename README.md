@@ -12,11 +12,6 @@ Database and basic UI for a hotel service. Hotel database that serves to better 
 PostgreSQL server was used to create our database. Code for creation of tables, constraints and views is in the file  _hotel_tables.sql_. File _hotel_functions.sql_ create functions and triggers for tables. Example data for the database can be added by running the file _hotel_inserts.sql_.
 
 
-{::comment}
- ### Interface
-![alt text](img/website.png "Website")
-{:/comment}
-
 
 ## Description of hotel service database
 Project presents a hotel database that serves to better organize the work of the hotel. It contains the information necessary  
